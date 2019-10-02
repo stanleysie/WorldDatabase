@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="400.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="306.0" layoutY="50.0" text="World Database" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="69.0" layoutY="88.0" prefHeight="224.0" prefWidth="582.0" />
+      <Button fx:id="city" layoutX="149.0" layoutY="339.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Cities" />
+      <Button fx:id="continent" layoutX="260.0" layoutY="339.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Continents" />
+      <Button fx:id="region" layoutX="371.0" layoutY="339.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Regions" />
+      <Button fx:id="language" layoutX="483.0" layoutY="339.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Languages" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="378.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="145.0" layoutY="51.0" text="Country Data" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="110.0" text="Country Code" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="140.0" text="Country Name" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="170.0" text="Capital" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="199.0" text="Continent" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="228.0" text="Region" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="256.0" text="Government Form" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="284.0" text="Surface Area" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="313.0" text="Population" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="342.0" text="Life Expectancy" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="372.0" text="Languages" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="language" alignment="TOP_LEFT" layoutX="189.0" layoutY="372.0" prefHeight="80.0" prefWidth="149.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="life" layoutX="189.0" layoutY="342.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="population" layoutX="189.0" layoutY="313.0" prefHeight="19.0" prefWidth="149.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="surface" layoutX="189.0" layoutY="284.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="government" layoutX="189.0" layoutY="256.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="region" layoutX="189.0" layoutY="228.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="continent" layoutX="189.0" layoutY="199.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="capital" layoutX="189.0" layoutY="170.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="name" layoutX="189.0" layoutY="140.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="code" layoutX="189.0" layoutY="110.0" prefHeight="19.0" prefWidth="149.0" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
